@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VICTOR MENDES</string>
+    <string name="note_content">Type here your feelings</string>
+    <string name="button_save">SAVE</string>
+    <string name="screen2">Recieve It</string>
+    <string name="screen3">See Your Toughts</string>
+    <string name="button_page2">SAVED NOTE</string>
+    <string name="button_page3">WIDGETS SCREEN</string>
+    <string name="progress">Progress: 0/100</string>
+    <string name="list">List</string>
+    <string name="classButton">Home</string>
+    <string name="hello">HELLO</string>
+    <string name="color">COLOR</string>
+    <string name="clear">CLEAR</string>
+</resources>
