@@ -11,11 +11,12 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
+// Essa é uma view declarada no XML, pois é a área que serve para desenhar.
 public class SimplePaint extends View {
     Path myPath;
     Paint myPaint;
 
-
+// Seta a cor e o shape do traço
     public SimplePaint(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
 

@@ -10,6 +10,7 @@ import com.skydoves.colorpickerview.ColorEnvelope;
 import com.skydoves.colorpickerview.ColorPickerDialog;
 import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener;
 
+// Atividade que engloba os botoes e a área de desenho (view)
 public class Paint extends AppCompatActivity {
     Button colorButton;
     Button clearButton;
@@ -33,6 +34,7 @@ public class Paint extends AppCompatActivity {
         });
     }
 
+    // Canvas para escolher a cor (vi no github)
     public void openColorPicker(){
         new ColorPickerDialog.Builder(Paint.this)
                 .setTitle("ColorPicker Dialog")
@@ -51,9 +53,9 @@ public class Paint extends AppCompatActivity {
                                 dialogInterface.dismiss();
                             }
                         })
-                .attachAlphaSlideBar(true) // the default value is true.
-                .attachBrightnessSlideBar(true)  // the default value is true.
-                .setBottomSpace(12) // set a bottom space between the last slidebar and buttons.
+                .attachAlphaSlideBar(true)
+                .attachBrightnessSlideBar(true)
+                .setBottomSpace(12)
                 .show();
     }
 
