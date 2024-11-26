@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="50dp"
     tools:context=".MainActivity">
 
+    <!-- Botão Paint -->
     <Button
         android:id="@+id/buttonPaint"
-        android:layout_width="125dp"
-        android:layout_height="82dp"
-        android:width="90dp"
-        android:height="35dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
         android:text="PAINT"
         android:textSize="16sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/buttonPage" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="32dp" />
 
+    <!-- Botão Planetas -->
     <Button
         android:id="@+id/buttonPlanets"
-        android:layout_width="129dp"
-        android:layout_height="80dp"
-        android:layout_marginEnd="4dp"
-        android:width="90dp"
-        android:height="35dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
         android:text="PLANETAS"
         android:textSize="16sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/buttonPaint"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/buttonPage" />
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="16dp" />
 
+    <!-- Botão SQLite -->
+    <Button
+        android:id="@+id/buttonSqlite"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SQLITE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/buttonPlanets"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

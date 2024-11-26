@@ -30,6 +30,9 @@
         <activity
             android:name=".MainListagem"
             android:exported="false" />
+        <activity
+            android:name=".SqliteActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

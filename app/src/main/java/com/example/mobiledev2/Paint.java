@@ -3,6 +3,7 @@ package com.example.mobiledev2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -16,8 +17,16 @@ public class Paint extends AppCompatActivity {
     Button clearButton;
     SimplePaint simplePaint;
 
+    //Button buttonMainActivity = findViewById(R.id.buttonMainActivity);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+//        buttonMainActivity.setOnClickListener(view -> {
+//            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+//
+//            startActivity(intent);
+//        });
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paint);
 
