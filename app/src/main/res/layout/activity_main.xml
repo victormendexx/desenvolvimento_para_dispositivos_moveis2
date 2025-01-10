@@ -49,4 +49,18 @@
         app:layout_constraintHorizontal_bias="0.5"
         android:layout_marginTop="16dp" />
 
+    <!-- Botão Launcher -->
+    <Button
+        android:id="@+id/buttonLauncher"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="LAUNCHER"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonPlanets" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

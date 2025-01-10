@@ -12,4 +12,5 @@
     <string name="hello">HELLO</string>
     <string name="color">COLOR</string>
     <string name="clear">CLEAR</string>
+    <string name="app_icon">App icon</string>
 </resources>
