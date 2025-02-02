@@ -18,7 +18,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor);
-        mTvLight.findViewById(R.id.tvSensorLigh);
+        mTvLight = findViewById(R.id.tvSensorLight);
 
         mSensorManager = (SensorManager) getSystemService(getApplicationContext().SENSOR_SERVICE);
         mSensorLight = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
