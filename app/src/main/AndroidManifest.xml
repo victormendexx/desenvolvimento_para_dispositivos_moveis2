@@ -36,6 +36,9 @@
         <activity
             android:name=".Launcher"
             android:exported="false" />
+        <activity
+            android:name=".Taco"
+            android:exported="false" />
     </application>
 
 </manifest>

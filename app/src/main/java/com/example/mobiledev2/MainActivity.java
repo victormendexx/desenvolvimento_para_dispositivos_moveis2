@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity{
         });
 
         buttonSqlite.setOnClickListener(view -> {
-            Intent intent = new Intent(getApplicationContext(), SqliteActivity.class);
+            Intent intent = new Intent(getApplicationContext(), Taco.class);
 
             startActivity(intent);
         });
@@ -42,5 +42,7 @@ public class MainActivity extends AppCompatActivity{
 
             startActivity(intent);
         });
+
+
     }
 }
