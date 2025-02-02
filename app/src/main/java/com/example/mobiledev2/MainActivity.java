@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity{
         Button buttonPlanet = findViewById(R.id.buttonPlanets);
         Button buttonSqlite = findViewById(R.id.buttonSqlite);
         Button buttonLauncher = findViewById(R.id.buttonLauncher);
+        Button buttonSensor = findViewById(R.id.buttonSensor);
 
         buttonPaint.setOnClickListener(view -> {
             Intent intent = new Intent(getApplicationContext(), Paint.class);
@@ -43,6 +44,10 @@ public class MainActivity extends AppCompatActivity{
             startActivity(intent);
         });
 
+        buttonSensor.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), SensorActivity.class);
 
+            startActivity(intent);
+        });
     }
 }
